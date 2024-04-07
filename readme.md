@@ -1,48 +1,37 @@
-# Traversy JS Challenges: Data Structures & Algorithms
+# Paul's JS Challenges & Practices: Data Structures & Algorithms
 
-This is the sandbox for my [70+ JS Challenges: Data Structures & Algorithms Course](https://www.traversymedia.com/javascript-challeges). Just about all of the concepts that are included, also exist in other languages. So, if you are not a JavaScript developer, you can still follow along and learn from this course/repo.
+This sandbox contain my Data Structures & Algorithms Practice. And the [70+ JS Challenges: Data Structures & Algorithms Course](https://www.traversymedia.com/javascript-challeges) was created by Brad Traversy.
 
-This course/repo goes over everything from basic loop challenges, high order array methods, recursion, time & space complexity, data structures such as stacks, queues, linked lists, trees, graphs, and we touch on sorting algorithms like bubble sort, insertion and merge sort. You should already know the basics of JavaScript before doing any of the challenges or taking the course.
-
-Please do not make any PRs to this repo as it goes along with a specific course. I may open another one for student solutions and new challenges.
+This course/repo goes over everything from basic loop challenges, high order array methods, recursion, time & space complexity, data structures such as stacks, queues, linked lists, trees, graphs, and sorting algorithms like bubble sort, insertion and merge sort.
 
 ## File Structure
 
 Each folder includes:
 
 - `readme.md` - The challenge/code instructions. This also includes hints, tests and a dropdown with the solution code as well as the explanation of the solution code.
-- `[name].js` - This is your working file. It has the name of the function and the function is exported. No parameters are passed to the function. That is up to you to add.
-- `[name]-run.js` - File to run the code manually. The function is already imported and called with expected parameters.
+- `[name].js` - In this file is where I've added my own solutions and and rewrite the course solutions. Functions in this files can sometimes be empty and this is because am yet to reach the challenge part.
 - `[name]-solution.js` The solution code with heavy commenting. Some challenges have multiple solutions. If you want the solution without comments, look in the `readme.md` file.
-- `[name]-test.js` - Jest tests for the solution code. You will need to rename this file to `[name].test.js` to run the tests.
+- `[name].test.js` - Jest tests for the solution code. Sometimes can be in this format `[name].test-js` and thats because I am still working on other challenges
 
 ## Learning Modules/Lessons
 
-Some lessons/modules are not challenges, they are more like mini-lessons. I don't just throw you a challenge using a new concept (Trees, Stacks, Bubble Sorts, etc) without explaining it first. I try to explain the concept and then give you a challenge to practice or implement it. So some folders will not have a challenge, just a readme file.
+Some lessons/modules are not challenges, they are more like mini-lessons.
 
 ## Running Tests
 
-In order for the Jest tests to run, you need to rename the test file to `[name].test.js`. For example, if you are working on the `hello-world` challenge, you need to rename the `hello-world-test.js` file to `hello-world.test.js`. This is because Jest looks for files with the `.test.js` extension.
-
 Run the command `npm run test` from the root directory and it will run all the tests.
-
-## These Don't Have to be "Challenges"
-
-Some people, such as myself are not great at doing this stuff off the top of their head. Even though most of the code is setup as a challenge, you can certainly just follow along with the course and/or just study the solutions and learn from them.
-
-You can use the tests to see if your code passes, but use the `run` files to run the code manually. This is so that you can experiment, console.log, etc.
 
 ## Getting Started
 
 1. Clone the repo
 2. Run `npm install`
-3. Run `npm run test` to run the tests. Again, you will need to rename the test files and replace the `-test` with `.test` to run the tests.
+3. Run `npm run test` to run the tests.
 
 ## Index of Challenges/Lessons
 
 #### 01. Basic Challenges 1
 
-These are mostly challenges that have to do with loops, conditionals, and string manipulation. I do not go over fundamentals like "what is a for loop". You should already know the basics of JavaScript.
+These are mostly challenges that have to do with loops, conditionals, and string manipulation.
 
 1. [Hello World Test Challenge](./01-basic-challenges-1/01-hello-world/readme.md)
 2. [Get Sum Test Challenge](./01-basic-challenges-1/02-get-sum/readme.md)
@@ -72,7 +61,7 @@ These are more challenges that have to do with iteration. They are slightly hard
 
 #### 03. High Order Array Methods
 
-The next set of challenges/lessons will have to do with high order array methods such as `map`, `filter`, `reduce`, `sort`, etc. Even though most of these can be done with a for loop, I want you to practice using these methods.
+The next set of challenges/lessons will have to do with high order array methods such as `map`, `filter`, `reduce`, `sort`, etc.
 
 1. [Simple Examples](./03-high-order-array-methods/01-simple-examples/readme.md)
 2. [Sum Of Even Squares](./03-high-order-array-methods/02-sum-of-even-squares/readme.md)
@@ -87,7 +76,7 @@ The next set of challenges/lessons will have to do with high order array methods
 
 #### 04. Recursion
 
-The next batch of challenges/lessons will have to do with recursion. We will first talk about what recursion is and then we can look at some challenges.
+The next batch of challenges/lessons will have to do with recursion.
 
 1. [Recursion Intro (Count Down)](./04-recursion/01-count-down/readme.md)
 2. [Unwinding (Sum Up To)](./04-recursion/02-unwinding/readme.md)
@@ -102,7 +91,7 @@ The next batch of challenges/lessons will have to do with recursion. We will fir
 
 #### 05. Complexity
 
-This is more of a learning section than a challenge section. We will talk about Big O notation and how to calculate the time complexity of an algorithm. We will also talk about space complexity and how to calculate that as well. We will talk about the different types of complexity such as constant, linear, quadratic, etc.
+This is more of a learning section than a challenge section.
 
 1. [What Is Time Complexity?](./05-complexity/01-what-is-time-complexity/readme.md)
 2. [Big O Notation](./05-complexity/02-big-o-notation/readme.md)
@@ -117,7 +106,7 @@ This is more of a learning section than a challenge section. We will talk about 
 
 #### 06. Hash Tables, Maps & Sets
 
-In this section, we will start to look at `data structures`. We will start with a data structure called a `hash table`. This will include `maps` and `sets`, which are built-in JavaScript data structures that are similar to hash tables. We will also create a custom hash table class and use it in a couple challenges.
+This section contains `data structures`. I started with a data structure called a `hash table`. This will include `maps` and `sets`, which are built-in JavaScript data structures that are similar to hash tables. I also created a custom hash table class and use it in a couple challenges.
 
 1. [What Are Data Structures?](./06-hash-tables-maps-sets/01-what-are-data-structures/readme.md)
 2. [Hash Table Intro](./06-hash-tables-maps-sets/02-hash-table-intro/readme.md)
@@ -136,7 +125,7 @@ In this section, we will start to look at `data structures`. We will start with 
 
 #### 07. Stacks, Queues & Linked Lists
 
-In this section, we will look at working with data structures such as `stacks`, `queues`, and `linked lists`. We will also look at `fast` and `slow` pointers.
+In this section, I looked at working with data structures such as `stacks`, `queues`, and `linked lists`. I will also look at `fast` and `slow` pointers.
 
 1. [What Is A Stack?](./07-stacks-queues-linked-lists/01-what-is-a-stack/readme.md)
 2. [Stack Implementation](./07-stacks-queues-linked-lists/02-stack-implementation/readme.md)
@@ -157,7 +146,7 @@ In this section, we will look at working with data structures such as `stacks`, 
 
 #### 08. Binary Trees & Binary Search Trees & Graphs
 
-In this section, we will look at `trees` and `graphs`. We will start with `binary trees` and `binary search trees`. We will also look at `graphs` and `graph traversal`.
+In this section, I used `trees` and `graphs`. I also started with `binary trees` and `binary search trees`. I also used `graphs` and `graph traversal`.
 
 1. [What Is A Tree?](./08-binary-trees-graphs/01-what-is-a-tree/readme.md)
 2. [Tree Node Class](./08-binary-trees-graphs/02-tree-node-class/readme.md)
@@ -177,7 +166,7 @@ In this section, we will look at `trees` and `graphs`. We will start with `binar
 
 #### 09. Sorting Algorithms
 
-In this section, we will get into sorting algorithms. We will start with `bubble sort`, which is very popular in interviews. We will also look at `selection sort`, `insertion sort`, `merge sort`, and `quick sort`.
+In this section, I got into sorting algorithms. I started with `bubble sort`, which is very popular in interviews. I also used `selection sort`, `insertion sort`, `merge sort`, and `quick sort`.
 
 1. [What Are Sorting Algorithms?](./09-sorting-algorithms/01-what-are-sorting-algorithms/readme.md)
 2. [Bubble Sort Algorithm](./09-sorting-algorithms/02-bubble-sort-algorithm/readme.md)
