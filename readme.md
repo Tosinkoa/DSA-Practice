@@ -1,4 +1,4 @@
-# Paul's JS Challenges & Practices: Data Structures & Algorithms
+# Paul's JS Practices: Data Structures & Algorithms
 
 This sandbox contain my Data Structures & Algorithms Practice. And the [70+ JS Challenges: Data Structures & Algorithms Course](https://www.traversymedia.com/javascript-challeges) was created by Brad Traversy.
 
