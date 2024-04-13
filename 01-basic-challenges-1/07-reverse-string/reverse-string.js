@@ -1,13 +1,14 @@
-// // My Solution 1
-// function reverseString(string) {
-
-// }
-
-// My Solution 2
+// My Solution 1
 function reverseString(string) {
-  const theReversedString = string.split("").reverse().join("");
+  let reversed = "";
 
-  return theReversedString;
+  for (let i = string.length - 1; i >= 0; i--) {
+    reversed += string[i];
+  }
+
+  return reversed;
 }
+
+// const reverseString = (string) => string.split("").reverse().join("");
 
 module.exports = reverseString;
