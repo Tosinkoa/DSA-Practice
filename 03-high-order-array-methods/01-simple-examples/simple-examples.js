@@ -65,5 +65,5 @@ console.log("slicedArray:", slicedArray);
 /**
  * sort: Sorts the elements of an array in place and returns the sorted array.
  */
-const sortedNumbers = numbers.slice().sort((a, b) => a - b);
+const sortedNumbers = numbers.sort((a, b) => a - b);
 console.log("sortedNumbers:", sortedNumbers);
